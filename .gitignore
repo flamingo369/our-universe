@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+# Build folders
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Uploads (if local uploads are temporary)
+
+
+# Supabase local files (optional)
+
+
+# Generated files
+*.tmp
+*.temp
+
+# Package lock (optional - usually KEEP this)
+# package-lock.json

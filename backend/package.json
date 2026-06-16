@@ -1,0 +1,33 @@
+{
+  "name": "our-universe-backend",
+  "version": "2.0.0",
+  "description": "Backend API for Our Universe - Powered by Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "supabase",
+    "react",
+    "love",
+    "anniversary"
+  ],
+  "author": "Ajesh",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
