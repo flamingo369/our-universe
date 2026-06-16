@@ -33,11 +33,13 @@ const server = http.createServer(app);
 // Initialize Socket.IO with CORS
 const io = new Server(server, {
   cors: {
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: [
+      'http://localhost:5173',
+      'https://our-universe-eta.vercel.app'
+    ],
     methods: ['GET', 'POST'],
     credentials: true
-  },
-  transports: ['websocket', 'polling']
+  }
 });
 
 // Initialize socket handlers
